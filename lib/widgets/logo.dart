@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_application_1/utils/constants.dart';
+
+import '../utils/constants.dart';
 
 class LogoFull extends StatelessWidget {
   LogoFull({this.isFull = true});
@@ -9,7 +12,7 @@ class LogoFull extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(children: [
       Image.asset(
-        'assets/logo.png',
+        kImagePath,
         height: isFull ? 215.h : 150.h,
       ),
       SizedBox(height: isFull ? 25.h : 8.h),
