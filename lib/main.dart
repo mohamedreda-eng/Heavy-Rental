@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../screens/mainItem.dart';
+//import '../screens/mainItem.dart';
 import './screens/Home/home.dart';
 import './screens/Registration/login.dart';
 import './screens/Registration/register.dart';
@@ -54,7 +54,7 @@ class MyApp extends StatelessWidget {
           Register.id: (ctx) => Register(),
           Login.id: (ctx) => Login(),
           Home.id: (ctx) => Home(),
-          MainItem.id: (ctx) => MainItem(),
+         // MainItem.id: (ctx) => MainItem(),
         },
       ),
     );
