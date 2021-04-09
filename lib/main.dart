@@ -13,12 +13,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
+
       designSize: Size(375, 812),
       allowFontScaling: false,
       builder: () => MaterialApp(
         title: 'Heavy Rental',
         theme: ThemeData(
-            accentColor: Colors.blueGrey,
+            accentColor: Colors.amber,
             //اللون ده اللي هو الاصفر
             fontFamily: 'cairo',
             scaffoldBackgroundColor: Color(0xffFFFAFA),
